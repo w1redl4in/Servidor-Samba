@@ -1,6 +1,3 @@
-# Servidor Samba
-
-
 # Instalação
     sudo apt-get update
     sudo apt-get install samba
