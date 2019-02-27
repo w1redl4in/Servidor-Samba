@@ -32,4 +32,4 @@
 # Sempre reinicie o serviço samba após cada modificação
     service smbd restart 
     
-![]https://github.com/w1redl4in/.dotfiles/blob/master/Prints/2019-02-27--07:32:11:PM--1600900--scrot.png    
+![](https://github.com/w1redl4in/.dotfiles/blob/master/Prints/2019-02-27--07:32:11:PM--1600900--scrot.png)
