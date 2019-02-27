@@ -26,5 +26,13 @@
     service smbd restart
     service smbd status // Checa status do serviço (ON ou OFF)
     
+# Criando usuários para valid users
+## Caso tenha a a necessidade de adicionar novos usuários(logins) ao servidor samba
+    sudo useradd -m nomedousuario // criação do usuário
+    
+    smbpasswd -a nomedousuario // Insira a senha e confirma
+    
+# Sempre reinicie o serviço samba após cada modificação
+    service smbd restart 
     
     
