@@ -2,7 +2,7 @@
     sudo apt-get update
     sudo apt-get install samba
 
-# Backup do smb.conf
+# Backup e criação do smb.conf
     mv smb.conf smb.conf.bkp // backup
     nano smb.conf
 
@@ -24,7 +24,7 @@
     service smbd status // Checa status do serviço (ON ou OFF)
     
 # Criando usuários para valid users
-## Caso tenha a a necessidade de adicionar novos usuários(logins) ao servidor samba
+## Caso tenha a necessidade de adicionar novos usuários(logins) ao servidor samba
     sudo useradd -m nomedousuario // criação do usuário
     
     smbpasswd -a nomedousuario // Insira a senha e confirma
