@@ -28,7 +28,7 @@
     service smbd restart
     service smbd status // Checa status do serviço (ON ou OFF)
     
-# Sempre reinicie o serviço samba após cada modificação
+# *Sempre reinicie o serviço samba após cada modificação*
     service smbd restart 
 
 # Meu samba com minhas configurações
