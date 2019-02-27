@@ -23,6 +23,9 @@
 ## Caso tenha a necessidade de adicionar novos usuários(logins) ao servidor samba
     sudo useradd -m nomedousuario // criação do usuário
     smbpasswd -a nomedousuario // Insira a senha e confirma
+    
+# Ajustando permissões para outros usuários
+    chmod o+x /nomedapasta/    
  
 # Reiniciando o serviço samba para aplicar configurações
     service smbd restart
@@ -31,6 +34,13 @@
 # *Sempre reinicie o serviço samba após cada modificação*
     service smbd restart 
 
-# Meu samba com minhas configurações
+# Acessando o samba 
+## Windows
+    Abra o executar(Win+R) e entre com: \\seuip e entre com login/senha ~ Exemplo: \\192.168.2.1
     
-![](https://github.com/w1redl4in/.dotfiles/blob/master/Prints/2019-02-27--07:32:11:PM--1600900--scrot.png)
+## Linux
+    Abra qualquer file manager e entre com: smb://seuip ~ Exemplo: smb://192.168.15.1
+    
+## Android
+    Baixe o app SWAT ou Gerenciador de arquivos + na Playstore e acesse via ip
+   
