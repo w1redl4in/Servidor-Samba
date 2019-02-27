@@ -30,10 +30,8 @@
 # Reiniciando o serviço samba para aplicar configurações
     service smbd restart
     service smbd status // Checa status do serviço (ON ou OFF)
-    
-# *Sempre reinicie o serviço samba após cada modificação*
-    service smbd restart 
-
+### Sempre reinicie o serviço samba após cada modificação
+  
 # Acessando o samba 
 ## Windows
     Abra o executar(Win+R) e entre com: \\seuip e entre com login/senha ~ Exemplo: \\192.168.2.1
@@ -44,3 +42,6 @@
 ## Android
     Baixe o app SWAT ou Gerenciador de arquivos + na Playstore e acesse via ip
    
+# Meu samba com minhas config
+   
+![](https://github.com/w1redl4in/.dotfiles/blob/master/Prints/2019-02-27--07:32:11:PM--1600900--scrot.png)
