@@ -37,7 +37,7 @@
     Abra o executar(Win+R) e entre com: \\seuip e entre com login/senha ~ Exemplo: \\192.168.2.1
     
 ## Linux
-    Abra qualquer file manager e entre com: smb://seuip ~ Exemplo: smb://192.168.15.1
+    Abra qualquer File Manager e entre com: smb://seuip ~ Exemplo: smb://192.168.15.1
     
 ## Android
     Baixe o app SWAT ou Gerenciador de arquivos + na Playstore e acesse via ip
