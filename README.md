@@ -7,7 +7,7 @@
     sudo su // Virando root
 
 # Backup e criação do smb.conf
-    mv smb.conf smb.conf.bkp // backup
+    cp smb.conf smb.conf.bkp // backup
     nano smb.conf
 
 # Configuração do smb.conf
