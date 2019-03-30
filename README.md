@@ -2,6 +2,9 @@
     sudo apt-get update
     sudo apt-get install samba
 
+# Entrando no diretório de configuração
+    cd /etc/samba
+
 # Backup e criação do smb.conf
     mv smb.conf smb.conf.bkp // backup
     nano smb.conf
