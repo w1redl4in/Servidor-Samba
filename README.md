@@ -4,6 +4,7 @@
 
 # Entrando no diretório de configuração
     cd /etc/samba
+    sudo su // Virando root
 
 # Backup e criação do smb.conf
     mv smb.conf smb.conf.bkp // backup
