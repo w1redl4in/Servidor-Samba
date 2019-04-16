@@ -15,7 +15,7 @@
       workgroup = xxxx // Nome de domínio
       security = user // Login e senha necessário para logar
       
-      
+ ## Nunca crie um compartilhamento na pasta /root/ !!     
     [Nome da sua Pasta]
       comment = xxxx // Algum comentário (Aparece sobre mouse-hover)
       path = /home/lain/Documents/Samba-fatec // Exemplo do caminho da minha pasta compartilhada
@@ -23,6 +23,9 @@
       writeable = yes // Pode ser editado
       browseable = yes // Pode ser acessado de outros dispositivos
       
+# Criando o Compartilhamento
+    mkdir /home/lain/Documents/Samba-fatec # Lembrando que esse é o meu compartilhamento no caminho que especifiquei
+    
  # Criando usuários para valid users
 ## Caso tenha a necessidade de adicionar novos usuários(logins) ao servidor samba
     sudo useradd -m nomedousuario // criação do usuário
