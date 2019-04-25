@@ -15,13 +15,13 @@
       workgroup = xxxx // Nome de domínio
       security = user // Login e senha necessário para logar
       
- ## Nunca crie um compartilhamento na pasta /root/ !!     
     [Nome da sua Pasta]
       comment = xxxx // Algum comentário (Aparece sobre mouse-hover)
       path = /home/lain/Documents/Samba-fatec // Exemplo do caminho da minha pasta compartilhada
       valid users = xxxx // Login do usuário para efetuar o login
       writeable = yes // Pode ser editado
       browseable = yes // Pode ser acessado de outros dispositivos
+  ## Nunca crie um compartilhamento na pasta /root/ !!  
       
 # Criando o Compartilhamento
     mkdir /home/lain/Documents/Samba-fatec # Lembrando que esse é o meu compartilhamento no caminho que especifiquei
