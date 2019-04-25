@@ -32,7 +32,7 @@
     smbpasswd -a nomedousuario // Insira a senha e confirma
     
 # Ajustando permissões para outros usuários
-    chmod o+x /nomedapasta/    
+    chmod o+w /nomedapasta/    
  
 # Reiniciando o serviço samba para aplicar configurações
     service smbd restart
