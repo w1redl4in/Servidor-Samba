@@ -28,7 +28,7 @@
     
  # Criando usuários para valid users
 ## Caso tenha a necessidade de adicionar novos usuários(logins) ao servidor samba
-    sudo useradd -m nomedousuario // criação do usuário
+    useradd -m nomedousuario // criação do usuário
     smbpasswd -a nomedousuario // Insira a senha e confirma
     
 # Ajustando permissões para outros usuários
